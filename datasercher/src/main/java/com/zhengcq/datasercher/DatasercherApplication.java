@@ -9,4 +9,9 @@ public class DatasercherApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DatasercherApplication.class, args);
 	}
+
+	public void test1(){
+		System.out.println("test1");
+	}
+
 }
