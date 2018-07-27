@@ -12,6 +12,6 @@ public class TestController {
 
     @PostMapping(value = "/test1")
     public Object test(@RequestParam("name")String name){
-        return "hello world,"+name;
+        return "hello world,"+name+"，are you ok?";
     }
 }
