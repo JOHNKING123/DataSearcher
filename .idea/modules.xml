@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DataSearcher.iml" filepath="$PROJECT_DIR$/.idea/DataSearcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/datasercher/datasercher.iml" filepath="$PROJECT_DIR$/datasercher/datasercher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datasercher/datasercher.iml" filepath="$PROJECT_DIR$/datasercher/datasercher.iml" />
     </modules>
   </component>
 </project>
