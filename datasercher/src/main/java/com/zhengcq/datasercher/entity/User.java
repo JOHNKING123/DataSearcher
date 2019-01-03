@@ -16,4 +16,5 @@ public class User {
     private BigDecimal wightTest;
 
 
+
 }
