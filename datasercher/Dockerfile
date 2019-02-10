@@ -1,4 +1,4 @@
-FROM         centos-jdk8:latest
+FROM         docker.io/fabric8/java-centos-openjdk8-jdk:latest
 MAINTAINER    zheng.cq
 
 ADD ./target/datasercher-0.0.1-SNAPSHOT.jar /opt/
