@@ -20,7 +20,8 @@ public class TestController {
 
     @PostMapping(value = "/test1")
     public Object test(@RequestParam("name")String name,@RequestParam("userId")Integer userId){
-        User user = userService.getById(userId);
+      // User user = userService.getById(userId);
+        User user = null;
         if(user != null){
              return "hello world,"+user.getName()+",age:"+user.getAge()+"，are you ok?..";
         }
