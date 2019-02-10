@@ -27,4 +27,12 @@ public class TestController {
         }
         return "hello world,"+name+"，are you ok?..";
     }
+
+
+    @PostMapping(value = "/hello")
+    public Object hello(){
+        // User user = userService.getById(userId);
+
+        return "hello world";
+    }
 }
