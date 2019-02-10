@@ -5,10 +5,7 @@ import com.zhengcq.datasercher.entity.User;
 import com.zhengcq.datasercher.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @EnableAutoConfiguration
@@ -29,7 +26,7 @@ public class TestController {
     }
 
 
-    @PostMapping(value = "/hello")
+    @GetMapping(value = "/hello")
     public Object hello(){
         // User user = userService.getById(userId);
 
