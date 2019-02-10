@@ -3,9 +3,9 @@ MAINTAINER    zheng.cq
 
 ADD ./target/datasercher-0.0.1-SNAPSHOT.jar /opt/
 
-touch /opt/run.log
+RUN touch /opt/run.log
 
-chmod 755 /opt/run.log
+RUN chmod 755 /opt/run.log
 
 
 #容器运行时监听的端口
